@@ -1,0 +1,9 @@
+[Unit]
+Description=LEDs
+After=network.target
+
+[Service]
+ExecStart=/home/gamer/Documents/led_controls.sh
+
+[Install]
+WantedBy=default.target
